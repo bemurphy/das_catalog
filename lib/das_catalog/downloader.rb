@@ -1,3 +1,5 @@
+require 'shellwords'
+
 module DasCatalog
   # TODO spec this
   class Downloader

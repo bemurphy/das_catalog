@@ -1,3 +1,5 @@
+require 'feedzirra'
+
 module DasCatalog
   class Feed
     FEED_URL = "https://www.destroyallsoftware.com/screencasts/feed"

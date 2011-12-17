@@ -1,3 +1,5 @@
+require 'pstore'
+
 module DasCatalog
   class Store
     def self.find(id)

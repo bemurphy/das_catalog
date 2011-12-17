@@ -1,9 +1,4 @@
-require 'feedzirra'
 require 'mechanize'
-require 'shellwords'
-require 'uri'
-require 'pstore'
-require 'forwardable'
 
 module DasCatalog
   SIGN_IN_URL = "https://www.destroyallsoftware.com/screencasts/users/sign_in"
