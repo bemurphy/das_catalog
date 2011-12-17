@@ -7,7 +7,7 @@ module DasCatalog
     end
 
     def self.for_link(link)
-      Store.find(link) or new(link) #Store.store(new(link))
+      Store.find(link) or new(link)
     end
 
     alias :id :link
