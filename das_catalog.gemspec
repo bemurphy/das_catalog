@@ -3,7 +3,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require "das_catalog/version"
 
 Gem::Specification.new do |s|
-  s.name        = 'das_downloader'
+  s.name        = 'das_catalog'
   s.version     = '0.0.1'
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Brendon Murphy'
