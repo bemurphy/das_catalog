@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+require 'highline/import'
+
+$LOAD_PATH.unshift File.expand_path("../lib", File.dirname(__FILE__))
+
+require 'das_catalog'
+
+config_file = File.expand_path("~/.das_catalog.yml")
+
+config = if File.exists?(config_file)
+  YAML.load_file(config_file)
+else
+  {}
+end
+
+DasCatalog.configure do |c|
+  c.username = config["username"] || ask("Enter your DAS username: ") { |q| q.echo = true }
+  c.password = config["password"] || ask("Enter your DAS password: ") { |q| q.echo = "*" }
+  c.downloads_directory = config["downloads_directory"] || ask("Enter your DAS downloads directory: ") { |q| q.echo = "*" }
+end
+
+DasCatalog.sync
