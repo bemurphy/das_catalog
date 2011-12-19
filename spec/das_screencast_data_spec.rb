@@ -8,6 +8,11 @@ describe DasCatalog::ScreencastData do
     subject.download_link.must_equal("#{link}/download")
   end
 
+  it "assigns a uuid using SecureRandom.uuid" do
+    SecureRandom.stubs(:uuid).returns("spec-uuid")
+    subject.uuid.must_equal "spec-uuid"
+  end
+
   it "uses the link as the id" do
     subject.id.must_equal link
   end

@@ -1,9 +1,16 @@
+require 'securerandom'
+
 module DasCatalog
   class ScreencastData
-    attr_reader :link, :watched, :downloaded
+    attr_reader :link, :watched, :downloaded, :uuid
 
     def initialize(link)
       @link = link
+      initialize_uuid
+    end
+
+    def initialize_uuid
+      @uuid ||= SecureRandom.uuid
     end
 
     def self.for_link(link)

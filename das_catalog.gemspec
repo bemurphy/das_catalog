@@ -4,7 +4,7 @@ require "das_catalog/version"
 
 Gem::Specification.new do |s|
   s.name        = 'das_catalog'
-  s.version     = '0.0.2'
+  s.version     = '0.1.0'
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Brendon Murphy'
   s.email       = 'xternal1+github@gmail.com'
