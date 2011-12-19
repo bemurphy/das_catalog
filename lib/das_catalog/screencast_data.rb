@@ -2,7 +2,7 @@ require 'securerandom'
 
 module DasCatalog
   class ScreencastData
-    attr_reader :link, :watched, :downloaded, :uuid
+    attr_reader :link, :watched, :uuid
 
     def initialize(link)
       @link = link
@@ -27,6 +27,10 @@ module DasCatalog
       @downloaded = true
     end
 
+    def reset_downloaded
+      @downloaded = false
+    end
+
     def downloaded?
       @downloaded
     end
@@ -35,7 +39,7 @@ module DasCatalog
       @watched = true
     end
 
-    def unwatched
+    def reset_watched
       @watched = false
     end
 

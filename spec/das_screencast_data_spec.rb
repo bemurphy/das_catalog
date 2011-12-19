@@ -26,13 +26,19 @@ describe DasCatalog::ScreencastData do
     assert subject.downloaded?
   end
 
+  it "can have its downloaded status reset" do
+    subject.downloaded
+    subject.reset_downloaded
+    refute subject.downloaded?
+  end
+
   it "reports as watched if watched" do
     subject.watched
     assert subject.watched?
   end
 
-  it "can be unwatched" do
-    subject.unwatched
+  it "can be unwatched by resetting watched" do
+    subject.reset_watched
     refute subject.watched?
   end
 
