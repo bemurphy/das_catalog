@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Destroy All Software Screencasts</title>
+    <description>Destroy All Software Screencasts</description>
+    <link>https://www.destroyallsoftware.com/screencasts</link>
+    <item>
+      <title>Sucks/Rocks 5: a Bug and a Model</title>
+      <description>In part five, we go back and fix the bug that we found in part three. Then, we complete the caching layer by pushing down to the ActiveRecord model. Finally, five screencasts in, we introduce a database schema and use Rails.</description>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/sucks-rocks-5-a-bug-and-a-model</link>
+    </item>
+    <item>
+      <title>Sucks/Rocks 4: Caching</title>
+      <description>We now add a caching layer to Sucks/Rocks. It's another plain old Ruby object that uses the RockScore service. This is part four of the series, and in it we add our third class, but we still don't need any Rails at all!</description>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/sucks-rocks-4-caching</link>
+    </item>
+    <item>
+      <title>Sucks/Rocks 3: The Search Engine</title>
+      <description>In part three, we integrate Bing as our search engine source, using VCR for record/playback of interactions when testing it. We also get our first passing Cucumber scenario, but find a bug in the process.</description>
+      <pubDate>Thu, 16 Feb 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/sucks-rocks-3-the-search-engine</link>
+    </item>
+    <item>
+      <title>Sucks/Rocks 2: Computing Scores</title>
+      <description>In part two, we begin the unit-level TDD for Sucks/Rocks. I try to explain every little decision I make as I'm TDDing: how the examples are chosen, when to generalize, and how to force the code to return a specific data type.</description>
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/sucks-rocks-2-computing-scores</link>
+    </item>
+    <item>
+      <title>Sucks/Rocks 1: The Rails App</title>
+      <description>In this series, we'll rebuild &lt;a href="http://sucks-rocks.com"&gt;Sucks/Rocks&lt;/a&gt; from scratch. It's currently broken because the services it relies on have been discontinued. We'll rebuild it as a Rails app using both TDD loops (acceptance and unit), and using many of the design principles discussed in earlier Destroy All Software screencasts.</description>
+      <pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/sucks-rocks-1-the-rails-app</link>
+    </item>
+    <item>
+      <title>Shorter Class Syntax</title>
+      <description>How terse can Ruby class definition get without changing the language or impacting readability? We'll give it a shot in this screencast, finding it surprisingly easy to turn six lines of declaration into two. The resulting helper code has been cleaned up, had its monkey patches removed, and is available &lt;a href="https://github.com/garybernhardt/cls"&gt;as a gem&lt;/a&gt;.</description>
+      <pubDate>Thu, 26 Jan 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/shorter-class-syntax</link>
+    </item>
+    <item>
+      <title>Generating Coupons With Bash</title>
+      <description>Destroy All Software coupon codes are each composed of three random Unix words, like "ls ruby fi". We'll build the coupon generation script from scratch. It starts with the list of man pages on the host system and turns them into random three-word coupon codes. Although the script is fundamentally one long chain of pipes, we'll take care to keep the names and structure readable throughout.</description>
+      <pubDate>Thu, 19 Jan 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/generating-coupons-with-bash</link>
+    </item>
+    <item>
+      <title>Repository Statistics in Raptor</title>
+      <description>We revisit an old topic: computing statistics over a repository. This time, we have a concrete example taken from the Raptor web framework, which has its own statistics script that results in very detailed plots. Along the way, we'll see some shell details, including some confusing behavior from the `time` builtin. Raptor's &lt;a href="https://github.com/garybernhardt/raptor/blob/master/script/statistics"&gt;statistics script&lt;/a&gt; and the &lt;a href="https://github.com/garybernhardt/dotfiles/blob/master/bin/run-command-on-git-revisions"&gt;run-command-on-git-revisions&lt;/a&gt; script are both available if you'd like to try them out.</description>
+      <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/repository-statistics-in-raptor</link>
+    </item>
+    <item>
+      <title>Brittle and Fragile Tests</title>
+      <description>The terms "fragility" and "brittleness" get thrown around: proponents of integration tests claim that mocking is fragile; proponents of mocking claim the opposite. It turns out that they're both right, and we'll look at why, then end with a look at an arguably incorrect use of the terms as applied to truly isolated tests.</description>
+      <pubDate>Thu, 05 Jan 2012 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/brittle-and-fragile-tests</link>
+    </item>
+    <item>
+      <title>Stubbing Unloaded Dependencies</title>
+      <description>Writing fast tests often means testing without loading the rest of the application. When you want to stub a method on a class that isn't loaded, how do you do it? There are many ways, and here we'll quickly look at five of them, four of which have no test performance impact at all.</description>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/stubbing-unloaded-dependencies</link>
+    </item>
+    <item>
+      <title>Emacs, Chainsaw of Chainsaws</title>
+      <description>Most Destroy All Software screencasts have used Vim, so let's take a moment to appreciate Emacs, the other "One True Editor". We'll look at some of my customizations from my past as an Emacs user, as well as some of the features I miss when I'm in Vim. (After publication, &lt;a href="http://avdi.org"&gt;Avdi Grimm&lt;/a&gt; reminded me of &lt;a href="https://gitorious.org/evil/pages/Home"&gt;Evil&lt;/a&gt;, which you may want to try for better Vim emulation in Emacs.)</description>
+      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/emacs-chainsaw-of-chainsaws</link>
+    </item>
+    <item>
+      <title>Untested Code Part 4: Refactoring 2</title>
+      <description>In the final part of this series, we pull a large piece of code out of the controller, moving it into its own class. That class is tested in isolation by using the controller's integration tests as a guide. While doing this, one of the tests stands out with very complex stubbing, so we make a small design change to simplify it. Finally, we step back and look at the final suite of tests we've created.</description>
+      <pubDate>Thu, 15 Dec 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/untested-code-part-4-refactoring-2</link>
+    </item>
+    <item>
+      <title>Untested Code Part 3: Refactoring 1</title>
+      <description>Now that we have tests, we can finally refactor! We'll do some minor cleaning on the structure of the controller action, and then extract some model logic into a new model method. During the process, we'll disentangle the book-finding logic from the book-adding logic. This will allow us to extract the book finding logic in part 4, reducing the controller to very little code.</description>
+      <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/untested-code-part-3-refactoring-1</link>
+    </item>
+    <item>
+      <title>Untested Code Part 2: Adding Tests</title>
+      <description>In part 2 of this series, we write actual tests for the context structure we discovered in part 1. Along the way, we'll verify that each test is actually testing something by breaking the code in a very small way to see it fail. (Ideally, this would cause an assertion failure each time; some erroring tests are allowed to slip by for speed's sake.) (The respond_to block used in this screencast could be replaced with `post :foo, :id =&gt; 12, :format =&gt; :js` in the test, leaving the production code unchanged.)</description>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/untested-code-part-2-adding-tests</link>
+    </item>
+    <item>
+      <title>Untested Code Part 1: Introduction</title>
+      <description>This is part one of a three part series on dealing with legacy code. We'll start with a completely untested Rails controller, put tests around it that cover all of the cases, and then extract pieces of the code safely using the tests, while simultaneously pushing the tests down to lower levels of isolation. In this screencast, we introduce the code and try to create an exhaustive list of pending RSpec contexts and examples.</description>
+      <pubDate>Thu, 24 Nov 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/untested-code-part-1-introduction</link>
+    </item>
+    <item>
+      <title>Web Apps: When to Test in Isolation</title>
+      <description>With 40 screencasts in the catalog, many of which discuss testing, we now have enough context to talk about when to test in isolation and when to integrate. It comes down to one main question: who owns the interfaces you depend on? We'll go through the major components in a modern web app, looking at why each can be tested in isolation or not, or why they're somewhere between those extremes, and see exactly why each one falls where it does.</description>
+      <pubDate>Thu, 17 Nov 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/web-apps-when-to-test-in-isolation</link>
+    </item>
+    <item>
+      <title>Outside-in TDD: Stubs vs. Stash</title>
+      <description>When doing TDD from the outside in, stubs are the norm. We build the outermost class first, stubbing its dependencies, which may not even exist yet. Those stubs tell us what the interface of the next layer down should be; this is how TDD drives the design. When we're not isolating our tests, though, we can't do this. We can still start at the top, but we can't make the test pass without an actual implementation. This can lead to large, unwieldy commits. We'll look at how to avoid those large commits using the git stash, and then compare the results of outside-in TDD with stubs vs. outside-in TDD with the stash.</description>
+      <pubDate>Thu, 10 Nov 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/outside-in-tdd-stubs-vs-stash</link>
+    </item>
+    <item>
+      <title>TDDing Spikes Away With Rebase</title>
+      <description>A spike is a small, disposable experiment in code. After learning about your problem or solution via the spike, you throw it away and rewrite the code using TDD. Here, we look at a process for doing that incrementally, using the spike as a guide and git's rebase functionality as the means. It's only appropriate when the spiked code is heavily constrained by external interfaces. But, in that case, it can guide you through tricky third party interactions. Because this is a subtle topic, the screencast is necessarily demonstrating a simplified form: the spiked and TDDed code are identical. When doing this in practice, the rebases will result in nontrivial conflicts since the implementations won't be identical. The more dissimilar they are, the closer you are to true test driven design, and the less useful this technique is.</description>
+      <pubDate>Thu, 03 Nov 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/tdding-spikes-away-with-rebase</link>
+    </item>
+    <item>
+      <title>What Goes in Active Records Part 2</title>
+      <description>In the second part of this series, we'll actually remove the various parts of the model that don't belong, as shown in the part 1. Most of the time will be spent removing the two ActiveRecord callbacks, replacing them with a class that sits between the controller and model, mediating the lifecycle of the User and Braintree API objects. We'll also briefly replace the other two methods with implementations outside the ActiveRecord class.</description>
+      <pubDate>Thu, 27 Oct 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/what-goes-in-active-records-part-2</link>
+    </item>
+    <item>
+      <title>What Goes in Active Records</title>
+      <description>Several screencasts have talked about moving logic out of models and into naked Ruby classes, but what are the things we should leave behind in the ActiveRecord models? That's what we'll address here: a walk through the types of methods that belong on AR models, and why they belong there.</description>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/what-goes-in-active-records</link>
+    </item>
+    <item>
+      <title>Which Tests to Write</title>
+      <description>In this screencast, we'll revisit the example from "&lt;a href="/screencasts/catalog/performance-of-different-test-sizes"&gt;Performance of Different Test Sizes&lt;/a&gt;", where we wrote similar pairs of tests at four different levels. We'll go through each level, asking which of those tests we should keep, and why. Along the way, we'll compare the layers a test claims to test to the layers it actually interacts with, and see how that indicates the quality of the test.</description>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/which-tests-to-write</link>
+    </item>
+    <item>
+      <title>Splitting Into Fine Grained Tests</title>
+      <description>The bigger a single test is, the worse the feedback. We'll look at a test that's already good but can be split further, comparing the failure patterns it generates before and after splitting. By turning one test into three, we'll be able to understand the failures simply by looking at the test names, instead of having to analyze the actual assertion failures.</description>
+      <pubDate>Thu, 06 Oct 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/splitting-into-fine-grained-tests</link>
+    </item>
+    <item>
+      <title>Simple Bash Script Testing</title>
+      <description>Cowboying a shell script is fun, but how do we test it? We'll look at a basic method in this screencast, using nothing except standard shell tools. In the process, we'll also see a simple method for using a git repository as a fixture for testing a tool that operates on it. Everything shown is Bash-compatible, though the screencast is a mix of Bash and Zsh.</description>
+      <pubDate>Thu, 29 Sep 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/simple-bash-script-testing</link>
+    </item>
+    <item>
+      <title>Performance of Different Test Sizes</title>
+      <description>This time, we analyze the execution time of testing a small piece of behavior at four different levels: from Cucumber, from the controller, from the view, and from an isolated Ruby class. This lets us quantify the performance benefit of fine-grained testing and make more objective decisions about what should be tested at a given level.</description>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/performance-of-different-test-sizes</link>
+    </item>
+    <item>
+      <title>History Spelunking With Unix</title>
+      <description>In this screencast, we once again analyze the history of a git repository. This time, though, we go further: we first generate a chart showing test runtimes across revisions, using only the command line. We then focus on a sudden change in runtime that the chart reveals, repurposing git bisect to make git find the commit that caused the change automatically.</description>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/history-spelunking-with-unix</link>
+    </item>
+    <item>
+      <title>Some Vim Tips</title>
+      <description>This is a screencast full of tips for learning Vim. They range from introductory (how do I learn to use Vim effectively?) to specific questions I'm asked (what plugins do I use?) to advanced (how should I guide my use of plugins to maximize speed?), so there should be something for everyone. We also touch on color schemes a couple times: both my grb256 color scheme based on ir_black (available &lt;a href="https://github.com/garybernhardt/destroy-all-software-extras/tree/master/das-0030-some-vim-tips"&gt;on GitHub&lt;/a&gt;) and &lt;a href="http://ethanschoonover.com/solarized"&gt;Solarized&lt;/a&gt;, which is a more subtle choice.</description>
+      <pubDate>Thu, 08 Sep 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/some-vim-tips</link>
+    </item>
+    <item>
+      <title>Extracting From Models</title>
+      <description>Returning to ChiliProject, we now extract some application logic from a model into some naked classes in lib. This results in removing code from the model, centralizing knowledge, eliminating duplication, and providing points for reuse. A method marked "This method [...] is to be kept as is" even gets refactored. (I'm sure it'll be fine!)</description>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/extracting-from-models</link>
+    </item>
+    <item>
+      <title>Acceptance Tests</title>
+      <description>In this screencast, we look at Cucumber for writing high-level acceptance tests with examples taken from Destroy All Software's Cucumber suite. We'll touch on step naming and the abstract/detailed split between features and steps, as well as some performance tips and notes about browser engines.</description>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/acceptance-tests</link>
+    </item>
+    <item>
+      <title>Extracting From Controller to Model</title>
+      <description>This is a follow-up to the two-part controller refactoring series. Here, we step outside the controller itself, moving small pieces of model querying and logic into the model. This clarifies the controller's intent, provides points for reuse, and simplifies testing of both the controller and the newly-extracted model methods.</description>
+      <pubDate>Thu, 18 Aug 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/extracting-from-controller-to-model</link>
+    </item>
+    <item>
+      <title>Controller Refactoring Demo Part 2</title>
+      <description>This is the second of two screencasts showing a live refactoring of a large controller method. In this half, we try to improve the names of all of our new methods by at least a little bit. Along the way, we extract some more fine-grained methods. At the end, we look at how breaking this class down makes it easy to move code out of the controller and into other classes. The final version of the class is &lt;a href="https://github.com/garybernhardt/destroy-all-software-extras/blob/master/das-0026-controller-refactoring-demo-part-2/account_controller.rb"&gt;available&lt;/a&gt; if you'd like to look over it.</description>
+      <pubDate>Thu, 11 Aug 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/controller-refactoring-demo-part-2</link>
+    </item>
+    <item>
+      <title>Controller Refactoring Demo Part 1</title>
+      <description>This is the first of two screencasts showing a live refactoring of a large controller method. In the first half, we break the method down into smaller methods so that we can understand it better. In the second half, we'll reason about those small pieces, find good names for them, and clarify. The end goals are small, understandable methods; better names; reduced early returns, conditionals, and other control structures; and better clarification of intent.</description>
+      <pubDate>Thu, 04 Aug 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/controller-refactoring-demo-part-1</link>
+    </item>
+    <item>
+      <title>Notes on Stubbing</title>
+      <description>In this screencast we look just at stubbing: not other types of test doubles, and not when to use a test double or not. We'll hit three stub-specific topics: the difference between incidental and essential interactions; a method for testing mix-ins without depending on a class that mixes them in; and creating more focused test examples by pulling out common stubs and mutating them for each example.</description>
+      <pubDate>Thu, 28 Jul 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/notes-on-stubbing</link>
+    </item>
+    <item>
+      <title>Spiking and Continuous Spiking</title>
+      <description>To spike code, you stop doing TDD, throw some code together without tests to learn something, then delete the code and do it the right way. In this screencast, we'll look at spiking, and specifically the idea of "continuous spiking": instead of throwing the code away, transitioning it into TDDed production code iteratively. It's a dangerous practice, but doing it with care can help you through unclear parts of your application development.</description>
+      <pubDate>Thu, 21 Jul 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/spiking-and-continuous-spiking</link>
+    </item>
+    <item>
+      <title>Test Isolation and Refactoring</title>
+      <description>Isolated unit tests have many benefits, but one drawback is a loss of confidence in the integrated system. At high levels of isolation, you lack a feedback mechanism for learning that the pieces don't actually work together: for example, they call the wrong methods, or call them with the wrong number of arguments. This can make refactoring with isolated tests scary. In this screencast, we'll look at the technique I use as a first line of defense. It's a hybrid between fully isolated unit testing and slow, expensive integration testing.</description>
+      <pubDate>Thu, 14 Jul 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/test-isolation-and-refactoring</link>
+    </item>
+    <item>
+      <title>Coupling and Abstraction</title>
+      <description>Coupling and abstraction are closely related: by introducing a method to reify an abstraction, you often naturally decrease the coupling between two classes. We'll explore this with a simple model/controller example, as well as a case where the situation isn't so straightforward: a method call that looks like a good, simple abstraction but is actually dangerous because it's third-party. Finally, we'll see the way that isolated, outside-in TDD naturally encourages you to build good abstractions early.</description>
+      <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/coupling-and-abstraction</link>
+    </item>
+    <item>
+      <title>Tar, Fork, and the Tar Pipe</title>
+      <description>The tar pipe is my favorite Unix command. It combines several important Unix concepts around files, subprocesses, and interprocess communication in just a few characters. We'll look at the tar pipe and what it does, then dive down into what the shell is doing to make it work, including forking and the creation of pipes. We'll also look at some raw tar data, which you rarely see in the wild.</description>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/tar-fork-and-the-tar-pipe</link>
+    </item>
+    <item>
+      <title>Composing a Unix Command Line</title>
+      <description>We've seen a lot of Unix commands, but never stopped to talk specifically about building a large command. That's what we'll do in this screencast: we'll solve a problem using a large one-off command, but the goal is to think about the command itself. Along the way, we'll see most of the utilities you need to do text processing in Unix. If you learn each of these, you'll be able to manipulate text streams quite well.</description>
+      <pubDate>Thu, 23 Jun 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/composing-a-unix-command-line</link>
+    </item>
+    <item>
+      <title>Clarity via Isolated Tests</title>
+      <description>Several Destroy All Software screencasts have touched on isolated testing, but never addressed it directly for its own sake. That's the topic of this screencast: why do we care about isolating the class under test from other classes? We'll look at an actual example I ran into: I started TDDing a class, letting it integrate with some other simple classes. After realizing that the test was becoming a mess, I deleted it, rewrote it in an isolated way, and it was far more readable. We'll retrace those steps to see the dramatic difference isolated testing made.</description>
+      <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/clarity-via-isolated-tests</link>
+    </item>
+    <item>
+      <title>Wrapping Third Party APIs</title>
+      <description>Third party APIs can be a source of bad design in your applications. When you mix your application's logic with calls into an API, you're obscuring both responsibilities. In this screencast, we'll look at a class where I've done just that. Then we'll extract the API access out into a wrapper, simplifying the original class and adding clarity to both the production code and the tests.</description>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/wrapping-third-party-apis</link>
+    </item>
+    <item>
+      <title>A Refactoring Story</title>
+      <description>While thinking about this week's screencast, I happened to do a pretty big refactoring on one of Destroy All Software's controllers. I translated a confusing mess of exception rescuing into a more sensible action, pushing validation and special cases down into lower-level classes. We'll look at the before picture, the changes I made, and then the after picture. There are naming changes, structural changes, and some important Rails behavior that was a little surprising. This is a departure from the normal Destroy All Software style, so please &lt;a href="mailto:support@destroyallsoftware.com"&gt;let us know what you think&lt;/a&gt;!</description>
+      <pubDate>Thu, 02 Jun 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/a-refactoring-story</link>
+    </item>
+    <item>
+      <title>Quick and Easy Perf Tests</title>
+      <description>Writing traditional arrange-act-assert tests for performance is difficult: what do you assert on? In this screencast, we'll look at a simple method for doing ongoing performance analysis: running small benchmarks across the commits in version control. With a few lines of shell scripts and RSpec, we can get a visual sense of our system's performance over time, allowing us to catch performance problems before they make it to production. The run-command-on-git-revisions script used here is available &lt;a href="https://github.com/garybernhardt/dotfiles/blob/master/bin/run-command-on-git-revisions"&gt;on GitHub&lt;/a&gt;.</description>
+      <pubDate>Thu, 26 May 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/quick-and-easy-perf-tests</link>
+    </item>
+    <item>
+      <title>Extracting Objects in Django</title>
+      <description>This is a sequel to the original &lt;a href="/screencasts/catalog/extracting-domain-objects"&gt;Extracting Domain Objects&lt;/a&gt; screencast. Once again, we'll look at Destroy All Software's catalog logic, pulling it out of the Django View (equivalent to a Rails controller), and moving it into its own domain-relevant class. Then we'll isolate and simplify the tests for both the view and the new Catalog class. Finally, we'll use the newly isolated tests to extend the behavior of the Catalog without changing or breaking the view and its tests.</description>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/extracting-objects-in-django</link>
+    </item>
+    <item>
+      <title>File Navigation in Vim</title>
+      <description>Vim's file navigation features are weak, so customization can speed you up a lot. We'll cover finding and opening files, including Rails-specific hacks that help you avoid the problem of finding one file among many with similar names. Then we'll look at the customizations I use to make splitting and window management work well with an outside-in TDD workflow. To try these customizations yourself, see the &lt;a href="/file-navigation-in-vim.html"&gt;reference&lt;/a&gt; that accompanies this screencast.</description>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/file-navigation-in-vim</link>
+    </item>
+    <item>
+      <title>Packaging in Ruby and Python</title>
+      <description>There's been an explosion in packaging tools in the last few years. Creation and installation aren't the hard parts any more: now we're managing multiple runtime versions, isolating package sets for different applications, and specifying dependencies in a repeatable way. This screencast looks at the landscapes in Ruby and Python, comparing their solutions to these problems. A &lt;a href="/ruby-vs-python-packaging-comparison.html"&gt;companion table&lt;/a&gt; of packaging-related commands in Ruby and Python is available to review the tools used in this screencast.</description>
+      <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/packaging-in-ruby-and-python</link>
+    </item>
+    <item>
+      <title>Git Workflow</title>
+      <description>Many people have asked about my git workflow, so here it is. Almost every command I run is an alias of some kind, but I explain them all. We'll go through a cycle of hacking, retroactively splitting commits, running tests over them, fetching from origin, rebasing over it, running tests over the new commits, and finally pushing. You can download &lt;a href="https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig"&gt;my .gitconfig&lt;/a&gt; and the &lt;a href="https://github.com/garybernhardt/dotfiles/blob/master/bin/run-command-on-git-revisions"&gt;run-command-on-git-revisions script&lt;/a&gt; to use them yourself. Also see the &lt;a href="/screencasts/catalog/source-code-history-integrity"&gt;"Source Code History Integrity"&lt;/a&gt; screencast for more on that topic.</description>
+      <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/git-workflow</link>
+    </item>
+    <item>
+      <title>Fast Tests With and Without Rails</title>
+      <description>Rails' startup can make running tests, and especially doing TDD, painful. You can escape this for most tests by moving code into the lib directory and testing it outside of Rails. We'll look at the performance of tests with and without Rails, as well as how I configure my environment to automatically skip loading it when possible. The script mentioned at the end of this screencast is &lt;a href="https://github.com/garybernhardt/destroy-all-software-extras/blob/master/das-0010-fast-tests-with-and-without-rails/test"&gt;available for download&lt;/a&gt;.</description>
+      <pubDate>Thu, 21 Apr 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/fast-tests-with-and-without-rails</link>
+    </item>
+    <item>
+      <title>Exceptions and Control Flow</title>
+      <description>The mantra "don't use exceptions for control flow" is repeated often, but its real implications tend to be glossed over. Using an example, I'll show you exactly what I think about it, and why I'm OK with using exceptions in certain cases that some people would dismiss as control flow.</description>
+      <pubDate>Thu, 14 Apr 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/exceptions-and-control-flow</link>
+    </item>
+    <item>
+      <title>Processes and Jobs</title>
+      <description>Processes and jobs&amp;mdash;processes running in your shell&amp;mdash;are the core of a Unix development workflow. For the first half of this screencast, we'll look at the shell's job control mechanisms, how GNU Screen works, and how I use them together for my development workflow. Then we'll look at an advanced use of process management that enables powerful composition of Unix tools beyond simple piping.</description>
+      <pubDate>Thu, 07 Apr 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/processes-and-jobs</link>
+    </item>
+    <item>
+      <title>Growing a Test Suite</title>
+      <description>When building a system, it's easy to continually append tests to your suite without considering the relationship between them. By building your test suite more deliberately, you can write clearer, terser tests, and also put better design pressure on your system. We'll build a small piece of code both ways: first by simply appending tests, then by extending existing tests and thinking about the implications.</description>
+      <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/growing-a-test-suite</link>
+    </item>
+    <item>
+      <title>Conflicting Principles</title>
+      <description>There are a whole lot of object oriented design principles. It's tempting to view them as absolute rules, but we also need to understand the trade-offs between them. We'll look at a case where The Single Responsibility Principle and Tell Don't Ask conflict, then touch on the grander implications.</description>
+      <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/conflicting-principles</link>
+    </item>
+    <item>
+      <title>Extracting Domain Objects</title>
+      <description>In modern web frameworks, it's easy to extend model and controller objects over and over again, leaving you with huge, unwieldy objects. To avoid this, you can extract small pieces into their own classes. This has many benefits, such as: much faster test execution, naming concepts in the system that were previously implicit, and adding explicit abstraction layers. We'll look at an example from Destroy All Software itself, a Rails app, and pull a piece of model logic embedded in a controller out into its own class with isolated tests.</description>
+      <pubDate>Thu, 17 Mar 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/extracting-domain-objects</link>
+    </item>
+    <item>
+      <title>Source Code History Integrity</title>
+      <description>Source code history is a touchy topic. Should we ever edit history? Is it safe? We'll look at what can go wrong when editing history, and how to avoid the potential problems. We'll also briefly talk about the Mercurial and Git communities. Warning: there's some editorializing!</description>
+      <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/source-code-history-integrity</link>
+    </item>
+    <item>
+      <title>Building RSpec From Scratch</title>
+      <description>RSpec has lured many programmers into the Ruby world with its beautiful syntax. For some, its working remain a mystery. Let's dispel that. We'll build some of RSpec's basic syntax from scratch, test driving it using Test::Unit. This is done in Ruby, of course. Basic Ruby knowledge will definitely help.</description>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/building-rspec-from-scratch</link>
+    </item>
+    <item>
+      <title>How and Why to Avoid Nil</title>
+      <description>We'll look at nil from many angles. Why do nils show up in your programs? What kinds of problems can they cause when they get out of control? How can we design our systems to fail loudly when unexpected nils exist and, more importantly, to avoid the introduction of nils entirely? This screencast uses Ruby, but the techniques apply in any language.</description>
+      <pubDate>Thu, 24 Feb 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/how-and-why-to-avoid-nil</link>
+    </item>
+    <item>
+      <title>Statistics Over Git Repositories</title>
+      <description>We'll use the shell and the git command line tools to iterate over revisions, computing a statistic for each revision. Initially, it'll be a one-liner at the prompt. Then we'll promote it to a full script, refactor it, and add some more features.</description>
+      <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
+      <link>https://www.destroyallsoftware.com/screencasts/catalog/statistics-over-git-repositories</link>
+    </item>
+  </channel>
+</rss>

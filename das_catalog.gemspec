@@ -4,7 +4,7 @@ require "das_catalog/version"
 
 Gem::Specification.new do |s|
   s.name        = 'das_catalog'
-  s.version     = '0.1.1'
+  s.version     = '0.2.1'
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Brendon Murphy'
   s.email       = 'xternal1+github@gmail.com'
@@ -17,11 +17,11 @@ Gem::Specification.new do |s|
 
   s.executables = ["das_catalog_sync"]
 
-  s.add_dependency('feedzirra')
   s.add_dependency('mechanize')
   s.add_dependency('highline')
 
   s.add_development_dependency('minitest')
   s.add_development_dependency('mocha')
   s.add_development_dependency('fakefs')
+  s.add_development_dependency('fakeweb')
 end
