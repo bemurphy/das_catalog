@@ -40,8 +40,8 @@ module DasCatalog
   # TODO spec this
   def self.sync
     feed = Feed.get
-    feed.entries.each do |entry|
-      sc = Screencast.for_link(entry.url)
+    feed.items.each do |entry|
+      sc = Screencast.for_link(entry.link)
       sc.download
     end
   end
